@@ -151,14 +151,19 @@ Consultório (C1/C2)
 # Consultórios
 
 O sistema possui:
-- Consultório 1 e 2 
-A distribuição dos pacientes ocorre através do bloco:
+- Consultório 1 e 2
+- 
+A distribuição dos pacientes ocorre através do bloco,
 
 ```text
 entrega_de_paciente
 ```
-Funcionando como uma chave seletora se atentando para se caso um consultório estiver ocupado o maqueiro, encaminhar o paciente para o outro
-consultório
+e por uma função seletora setada na entrada que informa pro maqueiro por qual caminho ele deve seguir:
+
+```text
+agent.consultorioEscolhido = randomTrue(0.5) ? 1 : 2;
+```
+Funcionando como uma chave seletora se atentando para se caso um consultório estiver ocupado o maqueiro, encaminhar o paciente para o outro consultório.
 
 # Atendimento Médico
 
