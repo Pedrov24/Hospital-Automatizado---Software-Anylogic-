@@ -232,3 +232,11 @@ A recuperação possui capacidade limitada, simulando leitos hospitalares.
 ```text
 https://www.anylogic.com/downloads/
 ```
+### Link de demonstração do projeto
+```text
+https://youtu.be/tTYs9gBXfPc
+```
+### Membros do Grupo
+- Pedro Vinicius; 
+- Pedro Henrique Gomes;
+- Vittor Gomes.
